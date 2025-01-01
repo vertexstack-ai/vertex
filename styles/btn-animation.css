@@ -1,0 +1,45 @@
+.border-button-light-blur {
+    position: absolute;
+    border-radius: 9999px;
+    border-width: 3px;
+    border-color: transparent;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    will-change: transform, opacity;
+  }
+  
+  .border-button-light {
+    background: linear-gradient(
+      transparent,
+      transparent
+    ) padding-box,
+      linear-gradient(
+        103.7deg,
+        hsla(15, 25%, 65%, 0.1) 38.66%,
+        rgba(233, 132, 99, 0.1) 68.55%,
+        #e98463 85.01%,
+        #fff 92.12%
+      ) border-box;
+    border-radius: 9999px;
+    border-width: 1px;
+    border-color: transparent;
+  }
+  
+  .custom-button {
+    transition: color 0.2s ease, background-color 0.2s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #ffda9f;
+    color: #5a250a;
+  }
+  
+  .will-change-transform {
+    transform: translateX(105px);
+    opacity: 1;
+  }
+  
+  .will-change-transform:hover {
+    transform: translateX(-105px);
+    opacity: 0;
+  }
+  
